@@ -1,0 +1,72 @@
+18:50:00 **** Incremental Build of configuration Debug for project 767_SPI_ILI9341_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/Downloads/767_SPI_ILI9341 (1)/767_SPI_ILI9341_2/Drivers/ILI9341" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'displayNumber':
+../Core/Src/main.c:113:20: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  113 |  sprintf(buffer,"%2d\n\r", c );
+      |                  ~~^       ~
+      |                    |       |
+      |                    int     uint32_t {aka long unsigned int}
+      |                  %2ld
+../Core/Src/main.c:114:29: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  114 |  HAL_UART_Transmit(&huart3, (uint32_t *) buffer, strlen(buffer), 1000);
+      |                             ^~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             uint32_t * {aka long unsigned int *}
+In file included from ../Core/Inc/stm32f7xx_hal_conf.h:410,
+                 from ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h:1531:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+ 1531 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:110:6: warning: unused variable 'time' [-Wunused-variable]
+  110 |  int time = c/1000;
+      |      ^~~~
+../Core/Src/main.c: In function 'displayStr':
+../Core/Src/main.c:119:29: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |  HAL_UART_Transmit(&huart3, (uint32_t *) buffer, strlen(buffer), 1000);
+      |                             ^~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             uint32_t * {aka long unsigned int *}
+In file included from ../Core/Inc/stm32f7xx_hal_conf.h:410,
+                 from ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h:1531:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+ 1531 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:184:21: warning: unused variable 'humidity' [-Wunused-variable]
+  184 |  float temperature, humidity;
+      |                     ^~~~~~~~
+../Core/Src/main.c:184:8: warning: unused variable 'temperature' [-Wunused-variable]
+  184 |  float temperature, humidity;
+      |        ^~~~~~~~~~~
+../Core/Src/main.c:182:23: warning: variable 'Am2320_' set but not used [-Wunused-but-set-variable]
+  182 |  Am2320_HandleTypeDef Am2320_;
+      |                       ^~~~~~~
+../Core/Src/main.c:173:7: warning: unused variable 'str' [-Wunused-variable]
+  173 |  char str[100];
+      |       ^~~
+../Core/Src/main.c:171:7: warning: unused variable 'ADCbuff' [-Wunused-variable]
+  171 |  char ADCbuff[100];
+      |       ^~~~~~~
+../Core/Src/main.c: In function 'LED8':
+../Core/Src/main.c:106:1: warning: control reaches end of non-void function [-Wreturn-type]
+  106 | }
+      | ^
+arm-none-eabi-gcc -o "767_SPI_ILI9341_2.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\KIRTTIPHOOM\Downloads\767_SPI_ILI9341 (1)\767_SPI_ILI9341_2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="767_SPI_ILI9341_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 767_SPI_ILI9341_2.elf
+ 
+arm-none-eabi-size   767_SPI_ILI9341_2.elf 
+arm-none-eabi-objdump -h -S  767_SPI_ILI9341_2.elf  > "767_SPI_ILI9341_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  42028	    496	   2384	  44908	   af6c	767_SPI_ILI9341_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 767_SPI_ILI9341_2.list
+ 
+
+18:50:02 Build Finished. 0 errors, 10 warnings. (took 1s.401ms)
+

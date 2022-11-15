@@ -1,0 +1,28 @@
+12:16:14 **** Incremental Build of configuration Debug for project lab03 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:102:17: error: stray '\342' in program
+  102 |    char str[] = â€œHello, World!!\r\nâ€?;
+      |                 ^
+../Core/Src/main.c:102:20: error: 'Hello' undeclared (first use in this function)
+  102 |    char str[] = â€œHello, World!!\r\nâ€?;
+      |                  ^~~~~
+../Core/Src/main.c:102:20: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:102:32: error: expected '=', ',', ';', 'asm' or '__attribute__' before '!' token
+  102 |    char str[] = â€œHello, World!!\r\nâ€?;
+      |                              ^
+../Core/Src/main.c:102:34: error: stray '\' in program
+  102 |    char str[] = â€œHello, World!!\r\nâ€?;
+      |                                ^
+../Core/Src/main.c:102:36: error: stray '\' in program
+  102 |    char str[] = â€œHello, World!!\r\nâ€?;
+      |                                  ^
+../Core/Src/main.c:102:38: error: stray '\342' in program
+  102 |    char str[] = â€œHello, World!!\r\nâ€?;
+      |                                    ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+12:16:15 Build Failed. 7 errors, 0 warnings. (took 366ms)
+

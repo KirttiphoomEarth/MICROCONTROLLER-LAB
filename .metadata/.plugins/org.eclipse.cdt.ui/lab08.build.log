@@ -1,0 +1,107 @@
+01:40:44 **** Incremental Build of configuration Debug for project lab08 ****
+make -j12 all 
+arm-none-eabi-gcc "C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/ILI9341/ILI9341_Touchscreen.d" -MT"Src/ILI9341/ILI9341_Touchscreen.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/ILI9341/ILI9341_Touchscreen.o"
+arm-none-eabi-gcc "C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/gpio.d" -MT"Src/gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/gpio.o"
+arm-none-eabi-gcc "C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rng.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/KIRTTIPHOOM/STM32CubeIDE/MAD_Lab/lab08/Drivers" -I"C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.o"
+In file included from C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:82:
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c: In function 'TP_Read':
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:89:27: error: 'T_CLK_Pin' undeclared (first use in this function); did you mean 'TP_CLK_PIN'?
+   89 | #define TP_CLK_PIN        T_CLK_Pin
+      |                           ^~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:95:36: note: in expansion of macro 'TP_CLK_PIN'
+   95 |     HAL_GPIO_WritePin(TP_CLK_PORT, TP_CLK_PIN, GPIO_PIN_SET);
+      |                                    ^~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:89:27: note: each undeclared identifier is reported only once for each function it appears in
+   89 | #define TP_CLK_PIN        T_CLK_Pin
+      |                           ^~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:95:36: note: in expansion of macro 'TP_CLK_PIN'
+   95 |     HAL_GPIO_WritePin(TP_CLK_PORT, TP_CLK_PIN, GPIO_PIN_SET);
+      |                                    ^~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/main.c:42:10: fatal error: ILI9341_Touchscreen.h: No such file or directory
+   42 | #include "ILI9341_Touchscreen.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:95:28: error: 'T_MISO_Pin' undeclared (first use in this function); did you mean 'TP_MISO_PIN'?
+   95 | #define TP_MISO_PIN        T_MISO_Pin
+      |                            ^~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:98:43: note: in expansion of macro 'TP_MISO_PIN'
+   98 |         if(HAL_GPIO_ReadPin(TP_MISO_PORT, TP_MISO_PIN) != 0)
+      |                                           ^~~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c: In function 'TP_Write':
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:89:27: error: 'T_CLK_Pin' undeclared (first use in this function); did you mean 'TP_CLK_PIN'?
+   89 | #define TP_CLK_PIN        T_CLK_Pin
+      |                           ^~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:114:34: note: in expansion of macro 'TP_CLK_PIN'
+  114 |   HAL_GPIO_WritePin(TP_CLK_PORT, TP_CLK_PIN, GPIO_PIN_RESET);
+      |                                  ^~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:98:28: error: 'T_MOSI_Pin' undeclared (first use in this function); did you mean 'TP_MOSI_PIN'?
+   98 | #define TP_MOSI_PIN        T_MOSI_Pin
+      |                            ^~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:120:39: note: in expansion of macro 'TP_MOSI_PIN'
+  120 |       HAL_GPIO_WritePin(TP_MOSI_PORT, TP_MOSI_PIN, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c: In function 'TP_Read_Coordinates':
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:89:27: error: 'T_CLK_Pin' undeclared (first use in this function); did you mean 'TP_CLK_PIN'?
+   89 | #define TP_CLK_PIN        T_CLK_Pin
+      |                           ^~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:139:34: note: in expansion of macro 'TP_CLK_PIN'
+  139 |   HAL_GPIO_WritePin(TP_CLK_PORT, TP_CLK_PIN, GPIO_PIN_SET);
+      |                                  ^~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:98:28: error: 'T_MOSI_Pin' undeclared (first use in this function); did you mean 'TP_MOSI_PIN'?
+   98 | #define TP_MOSI_PIN        T_MOSI_Pin
+      |                            ^~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:140:35: note: in expansion of macro 'TP_MOSI_PIN'
+  140 |   HAL_GPIO_WritePin(TP_MOSI_PORT, TP_MOSI_PIN, GPIO_PIN_SET);
+      |                                   ^~~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:92:27: error: 'T_CS_Pin' undeclared (first use in this function); did you mean 'TP_CS_PIN'?
+   92 | #define TP_CS_PIN         T_CS_Pin
+      |                           ^~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:141:33: note: in expansion of macro 'TP_CS_PIN'
+  141 |   HAL_GPIO_WritePin(TP_CS_PORT, TP_CS_PIN, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:101:27: error: 'T_IRQ_Pin' undeclared (first use in this function); did you mean 'TP_IRQ_PIN'?
+  101 | #define TP_IRQ_PIN        T_IRQ_Pin
+      |                           ^~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:155:57: note: in expansion of macro 'TP_IRQ_PIN'
+  155 |     while((samples > 0)&&(HAL_GPIO_ReadPin(TP_IRQ_PORT, TP_IRQ_PIN) == 0))
+      |                                                         ^~~~~~~~~~
+make: *** [Src/subdir.mk:42: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c: In function 'TP_Touchpad_Pressed':
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.h:101:27: error: 'T_IRQ_Pin' undeclared (first use in this function); did you mean 'TP_IRQ_PIN'?
+  101 | #define TP_IRQ_PIN        T_IRQ_Pin
+      |                           ^~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:206:35: note: in expansion of macro 'TP_IRQ_PIN'
+  206 |  if(HAL_GPIO_ReadPin(TP_IRQ_PORT, TP_IRQ_PIN) == 0)
+      |                                   ^~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c: In function 'TP_Read_Coordinates':
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:201:1: warning: control reaches end of non-void function [-Wreturn-type]
+  201 | }
+      | ^
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c: In function 'TP_Touchpad_Pressed':
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/ILI9341/ILI9341_Touchscreen.c:214:1: warning: control reaches end of non-void function [-Wreturn-type]
+  214 | }
+      | ^
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/gpio.c: In function 'MX_GPIO_Init':
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/gpio.c:103:25: error: 'User_Blue_Button_Pin' undeclared (first use in this function)
+  103 |   GPIO_InitStruct.Pin = User_Blue_Button_Pin;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/gpio.c:103:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/ILI9341/subdir.mk:29: Src/ILI9341/ILI9341_Touchscreen.o] Error 1
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/gpio.c:106:17: error: 'User_Blue_Button_GPIO_Port' undeclared (first use in this function)
+  106 |   HAL_GPIO_Init(User_Blue_Button_GPIO_Port, &GPIO_InitStruct);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Src/subdir.mk:40: Src/gpio.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+01:40:45 Build Failed. 16 errors, 2 warnings. (took 815ms)
+

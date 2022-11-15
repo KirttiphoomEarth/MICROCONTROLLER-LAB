@@ -1,0 +1,72 @@
+Configuration	lab05_6_1
+STM32CubeMX 	6.6.1
+Date	10/03/2022
+MCU	STM32F767ZITx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN8	ADC1_IN8	PB0
+ADC1	IN9	ADC1_IN9	PB1
+ADC1	IN10	ADC1_IN10	PC0
+ADC1	IN13	ADC1_IN13	PC3
+USART3	Asynchronous	USART3_RX	PB11
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+26	PC0	ADC1_IN10	
+29	PC3	ADC1_IN13	
+46	PB0	ADC1_IN8	
+47	PB1	ADC1_IN9	
+70	PB11	USART3_RX	
+75	PB14	GPIO_Output	
+77	PD8	USART3_TX	
+137	PB7	GPIO_Output	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN8	ADC1_IN8	PB0
+ADC1	IN9	ADC1_IN9	PB1
+ADC1	IN10	ADC1_IN10	PC0
+ADC1	IN13	ADC1_IN13	PC3
+USART3	Asynchronous	USART3_RX	PB11
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+26	PC0	ADC1_IN10	
+29	PC3	ADC1_IN13	
+46	PB0	ADC1_IN8	
+47	PB1	ADC1_IN9	
+70	PB11	USART3_RX	
+75	PB14	GPIO_Output	
+77	PD8	USART3_TX	
+137	PB7	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : lab05_6_1
+Project Folder : C:\Users\KIRTTIPHOOM\STM32CubeIDE\MAD_Lab\lab05_6_1
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F7 V1.17.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

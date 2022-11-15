@@ -1,0 +1,3 @@
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/tim.c:45:6:MX_TIM1_Init	40	static
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/tim.c:77:6:HAL_TIM_Base_MspInit	24	static
+C:/Users/KIRTTIPHOOM/Desktop/STM32-ILI9341-master/Src/tim.c:93:6:HAL_TIM_Base_MspDeInit	16	static

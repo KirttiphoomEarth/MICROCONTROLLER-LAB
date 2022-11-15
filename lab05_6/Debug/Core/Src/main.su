@@ -1,0 +1,5 @@
+../Core/Src/main.c:61:6:displayHEX	144	static
+../Core/Src/main.c:81:5:main	160	static
+../Core/Src/main.c:133:6:SystemClock_Config	88	static
+../Core/Src/main.c:171:6:HAL_ADC_ConvHalfCpltCallback	16	static
+../Core/Src/main.c:182:6:Error_Handler	4	static,ignoring_inline_asm

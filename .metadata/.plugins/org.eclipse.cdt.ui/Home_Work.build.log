@@ -1,0 +1,10 @@
+18:57:32 **** Incremental Build of configuration Debug for project Home_Work ****
+make -j12 all 
+arm-none-eabi-size   Home_Work.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11428	     20	   1844	  13292	   33ec	Home_Work.elf
+Finished building: default.size.stdout
+ 
+
+18:57:33 Build Finished. 0 errors, 0 warnings. (took 367ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;767_SPI_ILI9341_2/Core/Inc/EARTH&apos; to &apos;EARTH.h&apos;" description="Rename resource &apos;EARTH&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/EARTH" name="EARTH.h" stamp="1666256486467" updateReferences="true"/>
+</session>
